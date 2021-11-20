@@ -26,7 +26,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     # subscription_key = os.getenv('SUBSCRIPTION_KEY')
     # region = os.getenv('REGION')
     # endpoint = os.getenv('ENDPOINT')
-    subscription_key = "9b81f2bb0d0e4bb1bb57994696333855"
+    subscription_key = ""
     region = "westeurope"
     endpoint = "https://mtcognitiveservices1.cognitiveservices.azure.com/"
 
