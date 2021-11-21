@@ -10,4 +10,5 @@ Celem naszego projektu było utworzenie aplikacji webowej pozwalającej na opis 
 Rozbudowana wersja aplikacji może może służyć do pomocy osobą niewidomym.
 
 ## Funkcjonalności:
-
+* wgrywanie zdjęć,
+* odtwarzanie plików audio po stronie klienta.
