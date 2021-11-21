@@ -15,5 +15,6 @@ Rozbudowana wersja aplikacji może służyć do pomocy osobą niewidomym.
 * uzyskanie pliku audio z opisanego zdjęcia przy pomocy text to speech,
 * odtwarzanie plików audio po stronie klienta.
 
-## Architektura
-Frontend aplikacji zrealizowany przy pomocy React.js i jest uruchamiany na **App Service**, Api zostało zaimplementowane na **Azure Functions**, po stronie backendu wykorzystaliśmy **Cognitive Services**: custom vision i text to speech
+## Architektura:
+Frontend aplikacji zrealizowany przy pomocy React.js i jest uruchamiany na **App Service**, Api zostało zaimplementowane na **Azure Functions**, po stronie backendu wykorzystaliśmy **Cognitive Services: custom vision i text to speech**
+![image](https://user-images.githubusercontent.com/58606334/142778946-db25a8d0-b750-427e-8d6f-d9e66106307e.png)
