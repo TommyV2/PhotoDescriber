@@ -21,6 +21,19 @@ Frontend aplikacji zrealizowany przy pomocy React.js i jest uruchamiany na **App
 
 ## Schemat działania programu
 
-1. Wszystko zaczyna się od otworzenia aplikacji klienta, to właśnie ona jest interfejsem użytkownika do wgrywania i odtwarzania zdjęć.
+1. Wszystko zaczyna się od otworzenia aplikacji klienta, to właśnie ona jest interfejsem użytkownika do wgrywania zdjęć i odtwarzania ich opisów audio.
+
+Znajdziemy ją pod adresem: *https://projekt1-front.azurewebsites.net*
+
+![image](https://user-images.githubusercontent.com/58606334/142779226-7a805b70-b5a6-423a-8ab4-bea499642652.png)
+
+2. Użytkownik wciska przycisk **Upload**.
+
+![image](https://user-images.githubusercontent.com/58606334/142779264-97a429ce-1339-4ba3-aa3e-61609fce4441.png)
+
+3. Następnie wgrywa jakieś zdjęcie poprzez zrzucenie go do obszaru drag and drop, bądź w niego kliknięcie i wybranie pliku z systemu plików.
+
+![image](https://user-images.githubusercontent.com/58606334/142779325-9f4771f4-dbe0-42e7-b5d5-0b6ab87024b7.png)
+
 
 
