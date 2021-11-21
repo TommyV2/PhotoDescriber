@@ -36,6 +36,5 @@ Znajdziemy ją pod adresem: *https://projekt1-front.azurewebsites.net*
 ![image](https://user-images.githubusercontent.com/58606334/142779325-9f4771f4-dbe0-42e7-b5d5-0b6ab87024b7.png)
 
 4. Ostatnim krokiem jest kliknięcie przycisku **Read** po czym zostanie przeczytany opis zdjęcia wygenerowany przez backend, to w tym momencie zostaje wysyłane rządanie na backend, 
- 
 jest ono obługiwane przez endpoint *https://projekt1-api.azurewebsites.net/api/HttpTrigger1*. Tak jak wcześniej było wspomniane, backend jest zrealizowany przy pomocy **Azure Functions**, to tam zdjęcie zostaje przetworzone i zostaje utworzony jego opis w postaci tekstu, do tego celu jest stosowane **custom vision**. Po utworzeniu tekstowego opisu zdjęcia jest ono zamieniane na audio przy pomocy **text to speech**. Po uzyskaniu zapisu audio jest on odsyłany do aplikacji klienckiej gdzie jest odtwarzany.
 
