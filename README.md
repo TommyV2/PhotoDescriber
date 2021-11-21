@@ -11,7 +11,7 @@ Rozbudowana wersja aplikacji może służyć do pomocy osobą niewidomym.
 
 ## Funkcjonalności:
 * wgrywanie zdjęć,
-* przetwarzanie zdjęć przy pomocy cognitive services,
+* przetwarzanie zdjęć przy pomocy custom vision,
 * uzyskanie pliku audio z opisanego zdjęcia przy pomocy text to speech,
 * odtwarzanie plików audio po stronie klienta.
 
