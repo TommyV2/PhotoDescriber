@@ -17,4 +17,10 @@ Rozbudowana wersja aplikacji może służyć do pomocy osobą niewidomym.
 
 ## Architektura:
 Frontend aplikacji zrealizowany przy pomocy React.js i jest uruchamiany na **App Service**, Api zostało zaimplementowane na **Azure Functions**, po stronie backendu wykorzystaliśmy **Cognitive Services: custom vision i text to speech**
-![image](https://user-images.githubusercontent.com/58606334/142778946-db25a8d0-b750-427e-8d6f-d9e66106307e.png)
+![image](https://user-images.githubusercontent.com/58606334/142779079-e2d5772c-fccb-4844-a195-32bc777e1631.png)
+
+## Schemat działania programu
+
+1. Wszystko zaczyna się od otworzenia aplikacji klienta, to właśnie ona jest interfejsem użytkownika do wgrywania i odtwarzania zdjęć.
+
+
