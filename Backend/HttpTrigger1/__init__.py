@@ -16,16 +16,11 @@ from azure.cognitiveservices.speech.audio import AudioOutputConfig
 import os
 import sys
 import time
-# from dotenv import load_dotenv
 from io import BufferedReader
 from io import BytesIO
 import mimetypes
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
-    # load_dotenv()
-    # subscription_key = os.getenv('SUBSCRIPTION_KEY')
-    # region = os.getenv('REGION')
-    # endpoint = os.getenv('ENDPOINT')
     subscription_key = ""
     region = "westeurope"
     endpoint = "https://mtcognitiveservices1.cognitiveservices.azure.com/"
