@@ -17,6 +17,7 @@ Rozbudowana wersja aplikacji może służyć do pomocy osobą niewidomym.
 
 ## Architektura:
 Frontend aplikacji zrealizowany przy pomocy React.js i jest uruchamiany na **App Service**, Api zostało zaimplementowane na **Azure Functions** w Python3, po stronie backendu wykorzystaliśmy **Cognitive Services: custom vision i text to speech**
+
 ![image](https://user-images.githubusercontent.com/58606334/142779079-e2d5772c-fccb-4844-a195-32bc777e1631.png)
 
 ## Schemat działania programu
