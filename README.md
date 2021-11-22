@@ -1,13 +1,29 @@
 # PhotoDescriber
 
 ## Zespół:
-Tomasz Stańczuk
+Tomasz Stańczuk: https://github.com/TommyV2
 
 Michał Gajda: https://github.com/michauga
 
 ## Opis projektu:
-Celem naszego projektu było utworzenie aplikacji webowej pozwalającej na opis wgrywanych zdjęć w postaci audio.
-Rozbudowana wersja aplikacji może służyć do pomocy osobom niewidomym.
+Celem naszego projektu było utworzenie aplikacji webowej pozwalającej na opis wgrywanych zdjęć w postaci audio. Potencjalny użytkownik zamieszcza fotografię za pomocą graficznego interfejsu aplikacji internetowej. Aplikacja po zatwierdzeniu przez użytkownika przetwarza zamieszczoną fotografię. Z wykorzystaniem widzenia maszynowego na fotografii rozpoznawane są charakterystyczne obiekty. Na podstawie wykrytych obiektów aplikacja tworzy zrozumiały dla człowieka opis, najczęściej w postacie jednego krótkiego zdania w języku angielskim. Po utworzeniu opisu aplikacja korzysta z syntezatora mowy. Syntezie poddawany jest wcześniej utworzony opis zdjęcia, a ścieżka audio po zakończeniu przetwarzania jest automatycznie oddtwarzana w aplikacji.
+Rozbudowana oraz odpowiednio przystosowana wersja aplikacji może służyć do pomocy **osobom niewidomym**. Potencjalna rozszerzona wersja aplikacji poprzez specjalny interfejs umożliwiałaby łatwy sposób interakcji osobom niewidomym. Dodatkowo przesłane zdjęcia mogłyby być składowane w specjalnych audio-wizualnych albumach co umożliwiłoby osobom niewidomym lub niedowidzącym powrót do uwiecznionych wspomnień.
+
+## Stos technologiczny:
+##### Frontend:
+- Web App (App Services)
+- React.js
+
+##### Backend 
+- Azure Functions
+- Python (3.8)
+
+##### Przetwarzanie danych
+- Custom Vision (Cognitive Services) - rozpoznawanie obiektów na zdjęciu i tworzenie zrozumiałego opisu
+- Text to speech (Cognitive Services) - przetwarzanie tekstu na mowę --  opis zdjęcia z postaci tekstowej na ścieżkę audio
+
+##### Środowisko programistyczne
+- Visual Studio Code 1.62.3
 
 ## Funkcjonalności:
 * wgrywanie zdjęć,
